@@ -18,6 +18,7 @@ public class Main {
         Owner owner = new Owner("Jan","Kowal");
         Owner owner1 = new Owner("Jola","Kowalska");
 
+
         Bank model =new Bank();
 
         BusinessLogic controller = new BusinessLogic();
@@ -37,7 +38,7 @@ public class Main {
         view.getContoller().withdraw(20001,0);
         view.getContoller().transfer(200,0,1);
         view.getContoller().transfer(11000,0,2);
-        view.getContoller().transfer(110,0,3);
+        view.getContoller().transfer(10,2,3);
 
     }
 }
